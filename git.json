@@ -1,0 +1,42 @@
+[
+    {
+        "relativeUrl": "DenisAlmandoz/dataengineerproject-azure/refs/heads/main/Symptom-severity.csv",
+        "p_sink_folder": "Symptom-severity",
+        "p_sink_file": "Symptom-severity.csv"
+    },
+    {
+        "relativeUrl": "DenisAlmandoz/dataengineerproject-azure/refs/heads/main/Training.csv",
+        "p_sink_folder": "Training",
+        "p_sink_file": "Training.csv"
+    },
+    {
+        "relativeUrl": "DenisAlmandoz/dataengineerproject-azure/refs/heads/main/description.csv",
+        "p_sink_folder": "description",
+        "p_sink_file": "description.csv"
+    },
+    {
+        "relativeUrl": "DenisAlmandoz/dataengineerproject-azure/refs/heads/main/diets.csv",
+        "p_sink_folder": "diets",
+        "p_sink_file": "diets.csv"
+    },
+    {
+        "relativeUrl": "DenisAlmandoz/dataengineerproject-azure/refs/heads/main/medications.csv",
+        "p_sink_folder": "medications",
+        "p_sink_file": "medications.csv"
+    },
+    {
+        "relativeUrl": "DenisAlmandoz/dataengineerproject-azure/refs/heads/main/precautions.csv",
+        "p_sink_folder": "precautions",
+        "p_sink_file": "precautions.csv"
+    },
+    {
+        "relativeUrl": "DenisAlmandoz/dataengineerproject-azure/refs/heads/main/symtoms.csv",
+        "p_sink_folder": "symtoms",
+        "p_sink_file": "symtoms.csv"
+    },
+    {
+        "relativeUrl": "DenisAlmandoz/dataengineerproject-azure/refs/heads/main/workout.csv",
+        "p_sink_folder": "workout",
+        "p_sink_file": "workout.csv"
+    }
+]
