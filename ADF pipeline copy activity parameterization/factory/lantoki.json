@@ -1,0 +1,9 @@
+{
+	"name": "lantoki",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9410ec2f-55f4-4151-8683-c1cfe3dd38a7",
+		"tenantId": "e08f05a7-0ffb-4add-b843-269afd4830b9"
+	}
+}

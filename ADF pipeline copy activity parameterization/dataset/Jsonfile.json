@@ -1,0 +1,19 @@
+{
+	"name": "Jsonfile",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Httplink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "DenisAlmandoz/dataengineerproject-azure/refs/heads/main/git.json"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

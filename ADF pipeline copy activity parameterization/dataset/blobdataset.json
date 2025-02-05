@@ -1,0 +1,101 @@
+{
+	"name": "blobdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "blob_spoty",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"Filename": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": {
+					"value": "@dataset().Filename",
+					"type": "Expression"
+				},
+				"container": "bronze"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "year",
+				"type": "String"
+			},
+			{
+				"name": "id",
+				"type": "String"
+			},
+			{
+				"name": "name",
+				"type": "String"
+			},
+			{
+				"name": "artists",
+				"type": "String"
+			},
+			{
+				"name": "danceability",
+				"type": "String"
+			},
+			{
+				"name": "energy",
+				"type": "String"
+			},
+			{
+				"name": "key",
+				"type": "String"
+			},
+			{
+				"name": "loudness",
+				"type": "String"
+			},
+			{
+				"name": "mode",
+				"type": "String"
+			},
+			{
+				"name": "speechiness",
+				"type": "String"
+			},
+			{
+				"name": "acousticness",
+				"type": "String"
+			},
+			{
+				"name": "instrumentalness",
+				"type": "String"
+			},
+			{
+				"name": "liveness",
+				"type": "String"
+			},
+			{
+				"name": "valence",
+				"type": "String"
+			},
+			{
+				"name": "tempo",
+				"type": "String"
+			},
+			{
+				"name": "duration_ms",
+				"type": "String"
+			},
+			{
+				"name": "time_signature",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
